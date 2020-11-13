@@ -14,10 +14,8 @@ class DeleteTransactionService {
     };
 
 
-    console.log(findTransaction)
-    const respost = await transactions.delete(findTransaction)
+    const respost = await transactions.remove(findTransaction)
 
-    console.log(respost)
     return respost; 
   }
   
