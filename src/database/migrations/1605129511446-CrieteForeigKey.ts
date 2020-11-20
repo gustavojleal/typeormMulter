@@ -10,8 +10,8 @@ export class CrieteForeigKey1605129511446 implements MigrationInterface {
                 columnNames: ['category_id'],
                 referencedColumnNames: ['id'],
                 referencedTableName: 'categories',
-                onDelete: 'SET NULL',
                 onUpdate: 'CASCADE',
+                onDelete: 'SET NULL',
             })
         )
     }
